@@ -1,0 +1,308 @@
+@font-face{
+    font-family: myFont;
+    src:url(./font/hemi.ttf.otf)
+}
+/* @font-face {
+    font-family: myFont2;
+    src: url(./font/SFChaerilidae.ttf.ttf);
+} */
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: myFont;
+}
+/* h2{
+    display: inline-block;
+    color: white;
+    font-family: myFont;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: 682px;
+    padding: 15px;
+} */
+li:hover{
+    transition: 200ms;
+    color:red;
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: myFont;
+    text-decoration: none;
+}
+button{
+    background-color:red;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    width: 90px;
+    font-family: myFont;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: rgb(175, 9, 9);
+}
+audio{
+    display: none;
+}
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: black;
+    padding: 8px 30px;
+    position: sticky;
+    top: 0px;
+}
+#left{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    align-items: normal;
+    margin-left: 0px;
+}
+nav > #center > a{
+    color: white;
+    text-decoration: none;
+}
+nav > #right > a{
+    color: white;
+    text-decoration: none;
+}
+nav > #right > button > a{
+    text-decoration: none;
+}
+#center{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-family: myFont;
+    font-size: 18px;
+    padding-left: 5rem;
+}
+#right{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 36rem;
+}
+nav > #center > a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#main{
+    background-image: url(./Backgrounds/jett.gif);
+    /* background-color: purple; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 9rem;
+    padding-bottom: 13rem;
+}
+#main > h4{
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: white;
+}
+#main > h1{
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    font-size: 10rem;
+    color: white;
+}
+#main > a > #play{
+    background-color:red;
+    margin-left: 10px;
+    padding: 10px;
+    width: 16rem;
+    height: 3.5rem;
+    font-family: myFont;
+    border: none;
+    border-radius: 0%;
+    font-size: 1.1rem;
+    color: white;
+}
+/* #main > a > #play::after{
+    height: 100%;
+    left: -35%;
+    top: 0;
+    transform: skew(50deg);
+    transition-duration: 0.6s;
+    transform-origin: top left;
+    width: 0;
+}
+#main > a > #play:hover::after{
+    height: 100%;
+    width: 135%;
+} */
+/* #main > #play > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+} */
+#main2{
+    background-color: white;
+    margin-bottom: 3rem;
+}
+#main2 > #top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+}
+#main2 > #top > a{
+    text-decoration: none;
+    color: red;
+    padding-top: 3.8rem;
+}
+#main2 > #top > h1{
+    color: red;
+    font-size: 3rem;
+}
+#main2 > #bottom{
+    display: flex;
+    /* padding: 0rem 4rem; */
+    justify-content: space-between;
+}
+#main2 > #bottom > div{
+    width: 30%;
+    padding: 0rem 3rem;
+}
+#main2 > #bottom > div > a > img{
+    margin: 0%;
+    width: 100%;
+    border: none;
+    border-radius: 0%;
+}
+#main2 > #bottom  h4 > span{
+    padding-left: 15px;
+    color: red;
+}
+#main3 {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    padding-left: 10rem;
+    background-image: url(./images/Ep8a1_Defiance_Playval.com_Act_Overview_banner_3440x1020_Darkbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#main3 > h4{
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-left: 1.5rem;
+    /* position: relative; */
+}
+#main3 > h1{
+    color: white;
+    font-size: 7rem;
+    margin: 0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    /* position: relative; */
+}
+#main3 > button{
+    width: 16rem;
+    height: 3.5rem;
+    /* position: relative; */
+}
+#main3 > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+#main4 > #wall1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+}
+#main4 > #wall1 > a{
+    text-decoration: none;
+    color: red;
+    padding-top: 3.8rem;
+}
+#main4 > #wall1 > h1{
+    color: red;
+    font-size: 3rem;
+}
+/* #main4 > #wall1 > h1 > span{
+    font-size: 2.5rem ;
+} */
+#main4 > #wall2{
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+#main4 > #wall2 > img{
+    width: 50%;
+    border: none;
+    border: 0px;
+}
+footer{
+    background-color: black;
+}
+footer > #foot1 {
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1.8rem;
+}
+footer > #foot1 > a > .fa-brands{
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+footer > #foot1 > a >.fa-instagram{
+    padding-left: 0px;
+}
+footer > #foot2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+footer > #foot2 > img{
+    margin: 0;
+    border: none;
+    /* width: 5%; */
+}
+footer > #foot3 {
+    text-align: center;
+    color: white;
+    padding-bottom: 3rem;
+}
+footer > #foot3 > h5{
+    font-size: 1rem;
+    word-spacing: 3px;
+    margin: 0;
+    color: grey;
+}
+footer > #foot3 > h5 > span{
+    font-size: 1.1rem;
+}
+footer > #foot4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 30px;
+    padding-bottom: 3rem;
+}
+footer > #foot4 > a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+

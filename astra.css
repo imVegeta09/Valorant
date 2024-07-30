@@ -1,0 +1,140 @@
+@font-face{
+    font-family: myFont;
+    src:url(./font/hemi.ttf.otf)
+}
+h2{
+    display: inline-block;
+    color: white;
+    font-family: myFont;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: 682px;
+    padding: 15px;
+}
+body{
+    /* background-image: url(./Backgrounds/white\ vector\ 2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: white;
+    font-family: myFont;
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style-type: none;
+}
+.riot{
+    background-color:black;
+    margin-left: 0px;
+}
+
+li:hover{
+    transition: 200ms;
+    color:red;
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: myFont;
+    text-decoration: none;
+}
+
+button{
+    background-color:red;
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    width: 90px;
+    font-family: myFont;
+}
+audio{
+    display: none;
+}
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: black;
+    padding: 8px 30px;
+    position: sticky;
+    top: 0px;
+}
+#left{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    align-items: normal;
+    margin-left: 0px;
+}
+nav > #center > a{
+    color: white;
+    text-decoration: none;
+}
+nav > #right > a{
+    color: white;
+    text-decoration: none;
+}
+#center{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: myFont;
+    font-size: 18px;
+    padding-left: 5rem;
+}
+#right{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+nav > #center > a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#abc{
+    color: white;
+    font-size: 15px;
+}
+
+#efg{
+    color: white;
+    font-size: 15px;
+}
+#agents{
+    background-color: #0f1923;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#agents > #head > h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    color:#e54d4c;
+    font-weight: 900 ;
+}
+#agentnames{
+    display: flex;
+}
+#agentnames > #img > img{
+    border: 2px black solid;
+}
+#agentnames > #name > h2{
+    background: none;
+    color: #e54d4c;
+    text-decoration: none;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+#agentnames > #name > h2 > span{
+    color: black;
+}

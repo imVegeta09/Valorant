@@ -1,0 +1,196 @@
+@font-face{
+    font-family: myFont;
+    src:url(./font/hemi.ttf.otf)
+}
+body{
+    /* background-image: url(./Backgrounds/white\ vector\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: white;
+    font-family: myFont;
+    margin: 0%;
+    padding: 0%;
+}
+li:hover{
+    transition: 200ms;
+    color:red;
+    text-decoration: underline;
+}
+li{
+    list-style: none; 
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: myFont;
+    text-decoration: none;
+}
+
+button{
+    background-color:red; 
+    margin-left: 10px; 
+    border-radius: 6px;
+    padding: 10px; 
+    width: 90px;
+    font-family: myFont; 
+}
+audio{
+    display: none;
+}
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: black;
+    padding: 8px 30px;
+    position: sticky;
+    top: 0px;
+}
+#left{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    align-items: normal;
+    margin-left: 0px;
+}
+nav > #center > a{
+    color: white;
+    text-decoration: none;
+}
+nav > #right > a{
+    color: white;
+    text-decoration: none;
+}
+#center{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: myFont;
+    font-size: 18px;
+    padding-left: 5rem;
+}
+#right{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+nav > #center a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#map{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #0f1923;
+    margin-bottom: 3rem;
+}
+#map > #head > h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    color:#e54d4c;
+    font-weight: 900;
+}
+#main1 > #mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 5rem;
+    /* position: relative; */
+}
+#main1 > #mid > img{
+    width: 50%;
+    height: 29rem;
+}
+#main1 > #mid > #bott{
+    width: 35%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    /* background-color: #8b978f; */
+}
+#main1 > #mid > #bott > h2{
+    margin: 0;
+    font-size: 5rem;
+    color: #e54d4c;
+    text-align: right;
+}
+#main1 > #mid > #bott > h4{
+    /* margin: 0; */
+    font-size: 1.3rem;
+    color: black;
+    text-align: right;
+}
+footer{
+    background-color: black;
+}
+footer > #foot1 {
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1.8rem;
+}
+footer > #foot1 > a > .fa-brands{
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+footer > #foot1 > a >.fa-instagram{
+    padding-left: 0px;
+}
+footer > #foot2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+footer > #foot2 > img{
+    margin: 0;
+    border: none;
+    /* width: 5%; */
+}
+footer > #foot3 {
+    text-align: center;
+    color: white;
+    padding-bottom: 3rem;
+}
+footer > #foot3 > h5{
+    font-size: 1rem;
+    word-spacing: 3px;
+    margin: 0;
+    color: grey;
+}
+footer > #foot3 > h5 > span{
+    font-size: 1.1rem;
+}
+footer > #foot4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 30px;
+    padding-bottom: 3rem;
+}
+footer > #foot4 > a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+.fa-arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    color: #e54d4c;
+    font-size: 2rem;
+}
+.fa-arrow-right{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    color: #e54d4c;
+    font-size: 2rem;
+}
